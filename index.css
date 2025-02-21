@@ -26,7 +26,7 @@ a {
 
 /* MEDIA QUERIES  */
 
-@media screen and (max-width: 390px) {
+@media (max-width: 390px) {
   .header {
     height: 10px;
     margin-left: 10px;
@@ -156,11 +156,11 @@ a {
   }
 }
 
-@media screen and (max-width:320px){
+@media(max-width:320px){
   .header {
     padding: 30px;
-    margin-left: 10px;
-    max-width: 300px;
+    margin-left: 5px;
+    max-width: 320px;
   }
   #h1 {
     font-size: 37px;
@@ -247,6 +247,7 @@ a {
     font-family: "ID Grotesk";
   }
   #btn3 {
+    text-align: center;
     font-size: 16px;
     padding: 10px;
     border-radius: 5px;
@@ -276,7 +277,8 @@ a {
   }
   #img8 {
     margin-right: 15px;
-    max-width: 275px;
+    max-width: 245px;
+    margin-left: 10px;
   }
   h1 {
     text-align: center;
