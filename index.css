@@ -1,0 +1,157 @@
+body {
+  font-family: "ID Grotesk";
+}
+
+.header {
+  background-color: orange;
+  padding: 50px;
+  border-radius: 20px;
+  margin-left:5px;
+}
+
+#h1,
+a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+#img-1 {
+  height: 18px;
+  position: absolute;
+  top: 60px;
+  color: #fff;
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 390px) {
+  .header {
+    height: 10px;
+    margin-left: 10px;
+  }
+  #h1 {
+    font-size: 37px;
+  }
+  #img-1 {
+    position: absolute;
+    height: 15px;
+    top: 2px;
+  }
+  #btn-1 {
+    font-size: 16px;
+    font-family: "ID Grotesk";
+  }
+  #img-2 {
+    height: 25px;
+    top: 40px;
+  }
+
+  #img-3 {
+    position: absolute;
+    height: 35px;
+    top: 310px;
+    left: 60px;
+  }
+  #img-4 {
+    position: absolute;
+    height: 25px;
+    top: 330px;
+    left: 80px;
+  }
+  .flex {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 70px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  #h1-1 {
+    font-weight: 300;
+    text-align: center;
+    text-align: center;
+    font-size: 19px;
+  }
+  #h {
+    font-size: 33px;
+    text-align: center;
+    font-weight: 100;
+  }
+  span {
+    color: orange;
+  }
+  .btn-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #a-1 {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 120px;
+    font-weight: 300;
+  }
+  #btn2 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 45px;
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    color: rgb(24, 17, 17);
+    /* background-color: orange; */
+    font-family: "ID Grotesk";
+  }
+  #btn3 {
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 300;
+    color: #150d0d;
+    font-family: "ID Grotesk";
+    background-color: orange;
+  }
+  #section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  #section2 {
+    margin-top: 23px;
+    max-width: 315px;
+    display: flex;
+    margin-left: 27px;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  #img8 {
+    margin-left: 25px;
+    max-width: 290px;
+  }
+  h1 {
+    text-align: center;
+  }
+  #pp {
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-weight: 300;
+  }
+}
